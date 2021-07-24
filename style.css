@@ -39,5 +39,14 @@ a:hover{
     background-repeat: no-repeat;
     background-position: right;
 }
-
+.custom-border1{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+.custom-border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
 
