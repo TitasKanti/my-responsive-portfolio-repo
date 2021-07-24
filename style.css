@@ -1,6 +1,9 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/*-----------------------
+ common utilities 
+ -------------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     background: linen;
@@ -8,11 +11,6 @@ body{
 h1{
     font-size: 50px;
     font-weight: 700;
-}
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .custom-btn{
     text-decoration: none;
@@ -27,5 +25,19 @@ a:hover{
     padding: 12px 35px;
     color: gold;
     font-weight: 700;
-
 }
+/*----------------------------------
+ other sequential styles
+----------------------------------- */
+.top-banner{
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custom-bg{
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
